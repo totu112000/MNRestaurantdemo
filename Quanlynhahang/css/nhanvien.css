@@ -1,0 +1,47 @@
+table{
+    border: 2px solid blue;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid #1010dc;
+    padding: 5px;
+    text-align: center;
+}
+th{
+    background-color: #bef0ff;
+}
+tr.odd{
+    background-color: #fefefe;
+}
+tr.even
+{
+    background-color: #fff;
+}
+tr:hover{
+    background: rgb(198, 198, 198);
+    color: white;
+}
+.ul2{
+	list-style-type: none ;
+   margin: 0px;
+   padding: 10px;
+	overflow: hidden;
+   background-color: #ffffff;
+}
+.li2 a{
+   display: block;
+   color:#010448;
+   padding: 8px 16px;
+   text-decoration: none;
+   font-size: 15px;
+	padding: 8px;
+   padding-left: 50px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.li2 a:hover{
+    background-color: #ffffff;
+    color: rgb(211, 211, 211);
+}
+.li2{
+	float: left;
+}
